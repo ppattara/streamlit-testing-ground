@@ -4,7 +4,7 @@ import streamlit as st
 st.balloons()
 
 # Data file, from which we will read and write to
-fname = "data_file.txt"
+fname = "app1_data_file.txt"
 
 # Read the data file and show content
 f = open(fname, "r")
