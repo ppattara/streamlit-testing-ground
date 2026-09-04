@@ -14,7 +14,7 @@ st.write(data)
 
 # Append a line to this data file
 f = open(fname, "a")
-f.write("This is a new line")
+f.write("This is a new line.\n")
 f.close()
 
 # Read the data file again, and show content
